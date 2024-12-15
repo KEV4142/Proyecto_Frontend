@@ -37,7 +37,7 @@ const Login = () => {
     const { msg } = alerta;
     return (
         <>
-            <h1 className="text-lime-900 font-black text-xl capitalize md:flex md:justify-center">Inicio de sesión</h1>
+            <h1 className="text-lime-900 font-black text-xl capitalize md:flex md:justify-center">Inicio de sesión al Sistema</h1>
             {msg && <Alerta alerta={alerta} />}
             <form className="my-10 bg-white shadow rounded-lg px-10 py-5" onSubmit={handleSubmit}>
                 <div className="my-5">
